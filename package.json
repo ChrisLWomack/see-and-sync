@@ -1,7 +1,8 @@
 {
   "name": "node-authentication",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "git push heroku master"
   },
   "main": "server.js",
   "dependencies": {
