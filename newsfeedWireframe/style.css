@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+header, footer {
+  height: 75px;
+  width: 100%;
+  clear: both;
+  border: 2px solid black;
+}
+.reels{
+  height: 300px;
+  width: 60%;
+  float: left;
+  border: 2px solid black;
+}
+.music{
+  height: 300px;
+  width: 40%;
+  float: left;
+  border: 2px solid black;
+}
+.widget{
+  height: 74px;
+  width: 100%;
+  border: 2px solid black;
+}

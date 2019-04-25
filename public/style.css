@@ -1,0 +1,336 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding-top: 20px;
+  word-wrap:break-word;
+  font-size: 10px;
+}
+
+img{
+  height: 200px;
+}
+
+p{
+      margin: 0 0 5px;
+}
+
+header, footer{
+  width: 100%;
+  border: 2px solid black;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0 auto;
+  clear: both;
+  background-color: #101010;
+  height: 75px;
+  /* background-color: #04396C; */
+}
+header h1{
+      margin-left: 1%;
+      float: left;
+      font-size: 1.5rem;
+}
+#profile{
+  margin-left: 61%;
+  color: white;
+  background-color: #11ffee00;
+  border: 1px solid white;
+}
+#feed{
+  margin-left: 1%;
+  background-color: #AA0C2C;
+  border: none;
+}
+header button:first-of-type, header button:nth-of-type(2n){
+  float: left;
+  margin-top: 15px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.page{
+  background-color: black;
+}
+/* landing index page ========================================================================*/
+.container{
+  height: 1000px;
+  background-image: url('img/background.jpg');
+  background-size: cover;
+}
+.container .welcome{
+  text-align: center;
+  color: white;
+}
+.intro{
+  font-family: 'Orbitron', sans-serif;
+}
+.intro p:first-of-type{
+font-size: 2rem;
+margin-top: 42px;
+}
+.intro p:nth-of-type(2n){
+  font-size: 1.5rem;
+}
+.intro p:nth-of-type(3n){
+  font-size: 1.5rem;
+}
+
+
+.bottomIndex, .topIndex{
+  width: 50%;
+    background-color: #101010;
+    opacity: .9;
+
+  font-family: 'Orbitron', sans-serif;
+  margin-left: 25%;
+}
+
+.bottomIndex{
+margin-top: 5%;
+padding-bottom: 30px;
+padding-top: 30px;
+border-radius: 7px;
+}
+
+.bottomIndex p, .topIndex p{
+    margin-left: 40%;
+    color: white;
+    font-size: 1rem;
+}
+
+.bottomIndex a:first-of-type, .topIndex a:first-of-type{
+  margin-left: 17%;
+}
+
+.bottomIndex a:nth-of-type(2n), .topIndex a:nth-of-type(2n){
+  margin-left: 25%;
+}
+
+.bottomIndex button, .topIndex button{
+  width: 20%;
+  height: 90px;
+  font-size: 1.2rem;
+  font-family: 'Orbitron', sans-serif;
+  background-color: white;
+  color: #AA0C2C;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+/* login page ===================================================================*/
+
+.logForm{
+  width: 50%;
+  margin-left: 25%;
+}
+.logForm h1{
+      margin-left: 41%;
+      color: white;
+      padding-top: 15px;
+      font-size: 1.5rem;
+      font-family: 'Orbitron', sans-serif;
+}
+.logForm button{
+  margin-left: 39%;
+  margin-top: 20px;
+  width: 20%;
+  height: 40px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  background-size: cover;
+  background-color: white;
+}
+.logForm p {
+  color: white;
+  margin-left: 39%;
+  font-size: 1.5rem;
+}
+.logForm p a{
+  color: black;
+  font-weight: 600;
+}
+.form-group label{
+  margin-left: 29%;
+  color: black;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* sign up ===================================================================*/
+.radios{
+  margin-left: 27%;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  padding-top: 10px;
+  font-weight: 600;
+}
+/* test page ================================================================= */
+
+.backdrop{
+  background: linear-gradient(#AA0C2C, #101010);
+}
+
+.topProfile h2, .topProfile h4{
+  color: black;
+}
+
+.topProfile h2{
+  margin-left: 45%;
+  margin-top: 0%;
+  font-size: 2rem;
+  font-family:'Orbitron', sans-serif;
+  color: #101010
+}
+.topProfile p{
+  margin-left: 23%;
+  margin-top: 0%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family:'Orbitron', sans-serif;
+  color: white;
+}
+.topProfile input{
+  margin-left: 41%;
+  height: 26px;
+  border-radius: 5px;
+  margin-right: .5%;
+}
+.topProfile button{
+  background-color: #101010;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+}
+.myPosts{
+  width: 50%;
+margin-left: 25%;
+border: 5px;
+border-color: #04396C;
+padding-bottom: 50px;
+}
+.myPosts iframe{
+  margin-left: 7%;
+  padding-top: 20px;
+}
+.myPosts button{
+  margin-left: 43%;
+    background-color: #AA0C2C;
+    border: none;
+  margin-top: 15px;
+  height: 50px;
+  border-radius: 5px;
+}
+.myPosts .remove{
+    background-color: #101010;
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
+/* one video page ================================================================= */
+.backdropTwo{
+  background: linear-gradient(#AA0C2C, #101010);
+  float: left;
+  width: 100%;
+  /* height: 670px; */
+
+}
+
+.vid, .tracks{
+  margin-top: 25px;
+}
+.vid{
+  width: 45%;
+  float: left;
+  margin-left: 15%;
+}
+.vid a{
+  margin-left: 5%;
+}
+.tracks{
+    width: 25%;
+  float: left;
+  height: 400px;
+  overflow: auto;
+  padding-right: 2%;
+}
+.tracks button{
+  border-radius: 10px;
+    margin-left: 38%;
+    background-color: #101010;
+    border: none;
+    height: 25px;
+    width: 23%;
+margin-top: 4px;
+margin-bottom: 4px;
+color: white;
+
+}
+
+/* feed ==========================================================================*/
+.backdropTwo h2{
+  font-size: 2rem;
+  padding-top: 10px;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  margin-left: 41%;
+}
+.backdropTwo p{
+font-size: 1.2rem;
+padding-top: 10px;
+font-family: 'Orbitron', sans-serif;
+color: white;
+margin-left: 30%;
+}
+
+.feedVid{
+  width: 50%;
+margin-left: 25%;
+border: 5px;
+border-color: #04396C;
+padding-bottom: 50px;
+float: left;
+}
+.feedVid iframe{
+  margin-left: 7%;
+  padding-top: 20px;
+}
+.feedVid button{
+  margin-left: 45%;
+    background-color: #AA0C2C;
+    border: 2px solid black;
+  margin-top: 15px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+}
+.feedVid .remove{
+    background-color: #101010;
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* feedVideo ======================================================================*/
+
+.backdropTwo form{
+  margin-left: 41%;
+margin-top: 35px;
+}
+.backdropTwo form input:first-of-type{
+
+height: 26px;
+border-radius: 5px;
+margin-right: .5%;
+}
+.backdropTwo form input:nth-of-type(3n){
+  background-color: #101010;
+border: none;
+height: 50px;
+border-radius: 5px;
+color: white;
+}

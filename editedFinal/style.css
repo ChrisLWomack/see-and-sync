@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  height: 75px;
+  border: 2px solid black;
+}
+
+.container{
+  height: 300px;
+  width: 40%;
+  border: 2px solid black;
+  margin-left: 30%;
+}
+.description{
+  height: 50px;
+  width: 100%;
+  border: 2px solid black;
+}
+iframe{
+  margin-left: 22%;
+}
+.tags{
+  height: 50px;
+  width: 100%;
+  border: 2px solid black;
+}

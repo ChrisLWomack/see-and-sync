@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+header, footer {
+  height: 75px;
+  width: 100%;
+  clear: both;
+  border: 2px solid black;
+}
+.left, .middle, .right{
+  height: 400px;
+  width: 33.333%;
+  float: left;
+  border: 2px solid black;
+}

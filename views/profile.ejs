@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <title>See and Sync</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1></span>My Reels</h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+        <p>Got a Sync Ready Video?</p>
+        <p>Post the Youtube embed source link for the video</p>
+    </div>
+
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+
+        <section class="fillOut" >
+          <h2>Add a Reel</h2>
+        <% if (user.local.email) { %>
+          <form action="/vids" method="POST">
+            <input type="text" value="<%= user.local.email %>" name="name">
+            <input type="text" placeholder="video name" name="vid">
+            <input type="text"  value="" placeholder="description" name="description">
+            <input type="text" placeholder="embed link" name="link">
+
+            <button type="submit">Submit</button>
+          </form>
+          </section>
+        <% } %>
+
+        <div class="col-sm-6">
+          <h3>Reels</h3>
+          <ul class="myVid">
+          <% for(var i=0; i<posts.length; i++) {%>
+            <li class="vid">
+              <p><span>username:</span> <%= posts[i].name %></p>
+              <p><span>reel name:</span> <%= posts[i].vid %> </p>
+              <p><span>description:</span> <%= posts[i].description %> </p>
+              <p><iframe width="100%" height="300" scrolling="no" frameborder="" allow="autoplay" src="<%= posts[i].link %>"></iframe> </p>
+            </li>
+          <% } %>
+          </ul>
+            </div>
+          <section class="info" >
+
+
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
