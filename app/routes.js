@@ -7,9 +7,6 @@ var mongodb = require('mongodb');
         res.render('index.ejs');
     });
 
-    // app.get('/test', function(req, res) {
-    //     res.render('test.ejs');
-    // });
 
     // PROFILE SECTION =========================
     //all urls app can reach/ end points ' profile'
